@@ -2,33 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.bs-shadow {
+  box-shadow: -1px 1px 10px 0px #797979;
 }
 
-
-
-.Height {
-  height: calc(100vh - 65px);
-
-}
-
-.header-bg {
-  background-color: #5e5c5c;
+.logo-font {
+  font-family: "Moo Lah Lah", sans-serif;
 }
 
 .header-eff {
-  transition: all 0.25s ease-in-out;
+  transition: all 0.25s;
+}
+
+.header-eff:focus {
+  color: #d0c809;
+  scale: 1.2;
 }
 
 .header-eff:hover {
   scale: 1.2;
-  color: #05a2fd;
 }
 
-.hero-bg {
-  background-image: linear-gradient(45deg, rgb(255, 255, 255), rgb(185, 190, 190));
+.bs-height {
+  height: calc(100vh - 50px);
+}
+
+.responsive {
+  justify-content: center;
+  gap: 45px;
+  font-size: large;
+}
+
+@media (max-width: 550px) { 
+  .responsive{
+    gap: 0;
+    justify-content: space-evenly;
+    font-size: small;
+  }
 }
