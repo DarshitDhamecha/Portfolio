@@ -6,10 +6,6 @@
   box-shadow: -1px 1px 10px 0px #797979;
 }
 
-.logo-font {
-  font-family: "Moo Lah Lah", sans-serif;
-}
-
 .header-eff {
   transition: all 0.25s;
 }
@@ -48,42 +44,23 @@
   }
 }
 
-.wrapper {
-  flex-wrap: nowrap;
-  gap: 100px;
+.fram {
+  height: 250px;
+  width: 250px;
+  min-width: 250px;
 }
 
-.content {
-  text-align: start;
-}
-
-.icons-align {
-  justify-content: start;
-}
-
-.fram{
-  height: 260px;
-  width: 260px;
-}
-
-.photo{
-  
+.photo {
+  width: 220px;
+  min-width: 220px;
+  height: 220px;
 }
 
 @media (max-width: 768px) {
-  .wrapper {
-    flex-wrap: wrap;
-    gap: 0px;
-  }
-
   .content {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  .icons-align {
-    justify-content: center;
   }
 }
 
@@ -92,5 +69,17 @@
     gap: 0;
     justify-content: space-evenly;
     font-size: small;
+  }
+
+  .fram {
+    min-width: 180px;
+    height: 180px;
+    width: 180px;
+  }
+
+  .photo {
+    min-width: 150px;
+    width: 150px;
+    height: 150px;
   }
 }
