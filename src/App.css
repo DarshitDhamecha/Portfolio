@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.headding-fonts {
+  font-family: "Tektur", sans-serif;
+}
+
 .bs-shadow {
   box-shadow: -1px 1px 10px 0px #797979;
 }
@@ -16,6 +20,7 @@
 }
 
 .header-eff:hover {
+  color: #d0c809;
   scale: 1.2;
 }
 
