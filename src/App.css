@@ -61,6 +61,10 @@
   height: 220px;
 }
 
+li{
+  list-style-type: none;
+}
+
 @media (max-width: 768px) {
   .content {
     text-align: center;
