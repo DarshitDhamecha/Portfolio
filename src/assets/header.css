@@ -1,0 +1,13 @@
+.header-eff {
+    transition: all 0.25s;
+}
+
+.header-eff:focus {
+    color: #d0c809;
+    scale: 1.2;
+}
+
+.header-eff:hover {
+    color: #d0c809;
+    scale: 1.2;
+}

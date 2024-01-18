@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './pages/Hero';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Skills from './pages/Skills';
+import About from './pages/About';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Hero />} />
         <Route path='/skills' element={<Skills />} />
+        <Route path='/about' element={<About />} />
       </Routes>
     </>
   );
