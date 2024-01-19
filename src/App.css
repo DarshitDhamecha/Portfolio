@@ -30,3 +30,7 @@ li{
 .headding-fonts {
   font-family: "Tektur", sans-serif;
 }
+
+.my-height{
+  height: calc(100vh - 50px);
+}

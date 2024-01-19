@@ -5,6 +5,7 @@ import Hero from './pages/Hero';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Skills from './pages/Skills';
 import About from './pages/About';
+import Resume from './pages/Resume';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Hero />} />
         <Route path='/skills' element={<Skills />} />
         <Route path='/about' element={<About />} />
+        <Route path='/resume' element={<Resume />} />
       </Routes>
     </>
   );
