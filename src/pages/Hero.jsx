@@ -25,7 +25,8 @@ export default function Hero() {
                             title='View My Github'>
                             <i class="fa-brands fa-github "></i>
                         </a>
-                        <a href='#'
+                        <a href='https://www.linkedin.com/in/darshit-dhamecha-b71266278'
+                            target='_blank'
                             title='View My LinkedIn'
                             className='py-1 px-2 border-1 border-[#3d4c53] rounded-[50%] cursor-pointer hover:bg-[#3d4c53] hover:!text-[#fff] duration-200'>
                             <i class="fa-brands fa-linkedin-in "></i>
