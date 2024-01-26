@@ -1,12 +1,8 @@
-.my-resume {
-    background-image: url("/public/images/resume.png");
-    height: calc(100vh - 50px);
+.height {
+    height: calc(100vh - 80px);
     width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
-.resume-back {
-    background-color: rgba(170, 176, 180, 0.3);
+.resume-shadow {
+    box-shadow: 0px 6px 27px -2px #3d4c53;
 }

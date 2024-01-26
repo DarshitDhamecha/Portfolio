@@ -1,10 +1,10 @@
-.header-eff {
-    transition: all 0.25s;
+.addclass{
+    scale: 1.2;
+    color: #d0c809;
 }
 
-.header-eff:focus {
-    color: #d0c809;
-    scale: 1.2;
+.header-eff {
+    transition: all 0.25s;
 }
 
 .header-eff:hover {
