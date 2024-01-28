@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Skills from './pages/Skills';
 import About from './pages/About';
 import Resume from './pages/Resume';
+import Project from './pages/Project';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/skills' element={<Skills />} />
         <Route path='/about' element={<About />} />
         <Route path='/resume' element={<Resume />} />
+        <Route path='/project' element={<Project />} />
       </Routes>
     </>
   );

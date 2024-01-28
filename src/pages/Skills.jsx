@@ -1,13 +1,19 @@
-import React from 'react'
+import Aos from 'aos'
+import React, { useEffect } from 'react'
 
 export default function Skills() {
+    useEffect(() => {
+        Aos.init({
+            duration: 1500,
+        })
+    }, [])
     return (
         <>
             <h2 className='fs-3 text-center mt-3 font-semibold text-[#3d4c53] headding-fonts'>&lt; My Competence &gt;</h2>
             <div className='w-100 mt-2'>
                 <div className='mx-auto h-[2px] w-[125px] bg-[#3d4c53]'></div>
             </div>
-            <div className='w-100 flex px-3 gap-3 flex-wrap my-4 justify-center items-center'>
+            <div className='w-100 flex px-3 gap-3 flex-wrap my-4 justify-center items-center' data-aos="fade">
                 <a href="#html" className='py-2 px-3 text-[#fff] bg-[#3d4c53]'>HTML</a>
                 <a href="#css" className='py-2 px-3 text-[#fff] bg-[#3d4c53]'>CSS</a>
                 <a href="#css" className='py-2 px-3 text-[#fff] bg-[#3d4c53]'>Bootstrap</a>
@@ -19,7 +25,7 @@ export default function Skills() {
                 <a href="#git&github" className='py-2 px-3 text-[#fff] bg-[#3d4c53]'>Github</a>
             </div>
             <div className='w-100 px-3'>
-                <div id='html'>
+                <div id='html' data-aos="fade-up">
                     <h2 className='fs-3 font-semibold text-[#3d4c53] mt-3 text-center'>HTML</h2>
                     <div className='w-100'>
                         <div className='mx-auto h-[1px] mt-1 w-[100px] bg-[#3d4c53]'></div>
@@ -42,7 +48,7 @@ export default function Skills() {
                     <div className='mx-auto h-[60px] w-[2px] bg-[#3d4c53]'></div>
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
-                <div id='css'>
+                <div id='css' data-aos="fade-down">
                     <h2 className='fs-3 font-semibold text-[#3d4c53] mt-3 text-center'>CSS, Bootstrap, & TailwindCSS</h2>
                     <div className='w-100'>
                         <div className='mx-auto h-[1px] mt-2 w-[150px] bg-[#3d4c53]'></div>
@@ -61,7 +67,7 @@ export default function Skills() {
                     <div className='mx-auto h-[60px] w-[2px] bg-[#3d4c53]'></div>
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
-                <div id='javascript'>
+                <div id='javascript' data-aos="fade-up">
                     <h2 className='fs-3 font-semibold text-[#3d4c53] mt-3 text-center'>JavaScript</h2>
                     <div className='w-100'>
                         <div className='mx-auto h-[1px] mt-2 w-[100px] bg-[#3d4c53]'></div>
@@ -84,7 +90,7 @@ export default function Skills() {
                     <div className='mx-auto h-[60px] w-[2px] bg-[#3d4c53]'></div>
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
-                <div id='react'>
+                <div id='react' data-aos="fade-down">
                     <h2 className='fs-3 font-semibold text-[#3d4c53] mt-3 text-center'>React.js</h2>
                     <div className='w-100'>
                         <div className='mx-auto h-[1px] mt-2 w-[100px] bg-[#3d4c53]'></div>
@@ -107,7 +113,7 @@ export default function Skills() {
                     <div className='mx-auto h-[60px] w-[2px] bg-[#3d4c53]'></div>
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
-                <div id='redux'>
+                <div id='redux' data-aos="fade-up">
                     <h2 className='fs-3 font-semibold text-[#3d4c53] mt-3 text-center'>Redux</h2>
                     <div className='w-100'>
                         <div className='mx-auto h-[1px] mt-2 w-[100px] bg-[#3d4c53]'></div>

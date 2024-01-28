@@ -1,0 +1,71 @@
+.project-1 {
+    background-image: url("/public/images/projrct-1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-2 {
+    background-image: url("/public/images/project-2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.my-flex-gro {
+    flex-grow: 1;
+}
+
+.project-3 {
+    background-image: url("/public/images/project-3.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-4 {
+    background-image: url("/public/images/project-4.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-5 {
+    background-image: url("/public/images/project-5.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-6 {
+    background-image: url("/public/images/project-6.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-7 {
+    background-image: url("/public/images/project-7.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-8 {
+    background-image: url("/public/images/project-8.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.product-bg {
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.product-2-bg {
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width:800px) {
+    .my-wraper {
+        flex-wrap: wrap;
+    }
+}
