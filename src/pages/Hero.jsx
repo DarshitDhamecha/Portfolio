@@ -18,43 +18,43 @@ export default function Hero() {
                         <img src="/images/myPhoto-1.jpg" className='photo object-cover rounded-[50%]' alt="" data-aos="zoom-out" />
                     </div>
                 </div>
-                <div className='text-[#3d4c53] w-100 justify-center mt-3 text-center w-100 px-2'>
-                    <p className='font-semibold text-lg' data-aos="fade-up">Hi, I'm Darshit Dhamecha</p>
+                <div className='text-[#3d4c53] w-100 justify-center mt-3 text-center w-100 px-2' data-aos="zoom-in">
+                    <p className='font-semibold text-lg'>Hi, I'm Darshit Dhamecha</p>
                     <div className="w-100">
-                        <div className='h-[2px] w-[150px] bg-[#3d4c53] mx-auto my-2' data-aos="fade" data-aos-delay="500"></div>
+                        <div className='h-[2px] w-[150px] bg-[#3d4c53] mx-auto my-2' ></div>
                     </div>
-                    <p className='display-3 font-bold' data-aos="fade-up" data-aos-delay="1000">Web Developer</p>
-                    <p className='text mt-3' data-aos="fade-up" data-aos-delay="2000">Seeking a role as a front-end developer so I can use my thorough knowledge of programming frameworks and development software.</p>
+                    <p className='display-3 font-bold'>Web Developer</p>
+                    <p className='text mt-3' >Seeking a role as a front-end developer so I can use my thorough knowledge of programming frameworks and development software.</p>
                     <div className='flex gap-3 mt-4 icons-align justify-center w-100'>
                         <a href='https://github.com/DarshitDhamecha'
                             target="_blank"
                             rel="noopener noreferrer"
-                            className='w-[35px] h-[35px] flex justify-center items-center border-1 border-[#3d4c53] rounded-[50%] cursor-pointer hover:bg-[#3d4c53] hover:!text-[#fff] duration-200'
+                            className=' w-[35px] h-[35px] flex  justify-center items-center border-1 border-[#3d4c53] rounded-[50%] cursor-pointer hover:bg-[#3d4c53] hover:!text-[#fff] duration-200'
                             title='View My Github'
-                            data-aos="zoom-in" data-aos-delay="2500">
+                        >
                             <i class="fa-brands fa-github "></i>
                         </a>
                         <a href='https://www.linkedin.com/in/darshit-dhamecha-b71266278'
                             target='_blank'
                             title='View My LinkedIn'
-                            className='w-[35px] h-[35px] flex items-center justify-center border-1 border-[#3d4c53] rounded-[50%] cursor-pointer hover:bg-[#3d4c53] hover:!text-[#fff] duration-200'
-                            data-aos="zoom-in" data-aos-delay="2500">
+                            className=' w-[35px] h-[35px] flex  items-center justify-center border-1 border-[#3d4c53] rounded-[50%] cursor-pointer hover:bg-[#3d4c53] hover:!text-[#fff] duration-200'
+                        >
                             <i class="fa-brands fa-linkedin-in "></i>
                         </a>
                         <a href='tel:7048416907'
                             target='_blank'
                             rel='noopener noreferrer'
                             title='Contect Me'
-                            className='w-[35px] h-[35px] flex items-center justify-center border-1 border-[#3d4c53] rounded-[50%] cursor-pointer hover:bg-[#3d4c53] hover:!text-[#fff] duration-200'
-                            data-aos="zoom-in" data-aos-delay="2500">
+                            className=' w-[35px] h-[35px] flex  items-center justify-center border-1 border-[#3d4c53] rounded-[50%] cursor-pointer hover:bg-[#3d4c53] hover:!text-[#fff] duration-200'
+                        >
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
                         <a href='https://www.instagram.com/darshit.444'
                             target='_blank'
                             rel='noopener noreferrer'
                             title='View My Instagram'
-                            className='w-[35px] h-[35px] flex items-center justify-center border-1 border-[#3d4c53] rounded-[50%] cursor-pointer hover:bg-[#3d4c53] hover:!text-[#fff] duration-200'
-                            data-aos="zoom-in" data-aos-delay="2500">
+                            className=' w-[35px] h-[35px] flex items-center justify-center border-1 border-[#3d4c53] rounded-[50%] cursor-pointer hover:bg-[#3d4c53] hover:!text-[#fff] duration-200'
+                        >
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </div>

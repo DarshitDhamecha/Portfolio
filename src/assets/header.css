@@ -11,3 +11,25 @@
     color: #d0c809;
     scale: 1.2;
 }
+
+.header-anim{
+    animation: up-down 0.75s forwards ease-in-out;
+    transform: translate(0);
+}
+
+@keyframes up-down {
+    0%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width: 550px) {
+    .responsive {
+        gap: 0;
+        justify-content: space-evenly;
+        font-size: small;
+    }
+}

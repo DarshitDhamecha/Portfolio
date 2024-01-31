@@ -40,6 +40,20 @@
 }
 
 
+.icon-anim{
+    display: flex;
+    animation: show-hide forwards 5s ease-in-out;
+}
+
+@keyframes show-hide {
+    0%{
+        display: none;
+    }
+    100%{
+        display: flex;
+    }
+}
+
 @media (max-width: 768px) {
     .content {
         text-align: center;
@@ -52,7 +66,7 @@
     .responsive {
         gap: 0;
         justify-content: space-evenly;
-        font-size: small;
+        font-size: 15px;
     }
 
     .fram {
