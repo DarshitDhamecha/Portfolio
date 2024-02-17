@@ -14,9 +14,9 @@ export default function Hero() {
         <>
             <div className='w-100 bg-[#fffafa] bs-height'>
                 <div className='w-100 h-[45vh] flex justify-center items-center'>
-                    <div className='myZoomin rounded-[50%]'>
-                        <div className='fram flex justify-center items-center border-anim rounded-[50%] mx-auto'>
-                            <img src="/images/myPhoto-1.jpg" className='photo object-cover rounded-[50%]' alt="" />
+                    <div className='myZoomin !rounded-[100%]'>
+                        <div className='fram flex justify-center items-center border-anim !rounded-[100%]'>
+                            <img src="/images/myPhoto-1.jpg" className='photo object-cover !rounded-[100%]' alt="" />
                         </div>
                     </div>
                 </div>
