@@ -12,27 +12,29 @@
     font-size: large;
 }
 
-.border-anim {
-    animation: border-anim infinite alternate ease-in-out 0.75s;
-    box-shadow: 0px 0px 0px 0px #3d4c53;
-}
 
-.myZoomin{
+.myZoomin {
     animation: zoomanim forwards ease-out 0.8s;
 }
 
 @keyframes zoomanim {
-    0%{
+    0% {
         transform: scale(0);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 }
 
+.border-anim {
+    animation: border-anim infinite alternate ease-in-out 0.7s;
+    box-shadow: 0px 0px 0px 0px #3d4c53;
+}
+
 @keyframes border-anim {
     0% {
-        box-shadow: 0px 0px 0px 0px 3d4c53;
+        box-shadow: 0px 0px 0px 0px #3d4c53;
     }
 
     100% {
@@ -53,17 +55,33 @@
 }
 
 
-.icon-anim{
+.icon-anim {
     display: flex;
     animation: show-hide forwards 5s ease-in-out;
 }
 
 @keyframes show-hide {
-    0%{
+    0% {
         display: none;
     }
-    100%{
+
+    100% {
         display: flex;
+    }
+}
+
+.secZoom {
+    transform: scale(1);
+    animation: seczoom forwards ease 1s;
+}
+
+@keyframes seczoom {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
     }
 }
 
