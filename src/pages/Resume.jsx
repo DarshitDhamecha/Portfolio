@@ -15,7 +15,7 @@ export default function Resume() {
                     <img src="/images/my-resume.jpg" className='h-100 mx-auto  resume-shadow my-resume' alt="" data-aos="zoom-in" />
                 </div>
                 <div className='position-fixed bottom-7 right-4'>
-                    <a href="/images/myresume.jpg" download="Darshit_Dhamecha_CV">
+                    <a href="/images/my-resume.jpg" download="Darshit_Dhamecha_CV">
                         <button className='border-[#3d4c53] border-1 py-1 px-1 hover:!bg-[#3d4c53] hover:text-[#fff]'>Download</button>
                     </a>
                 </div>
