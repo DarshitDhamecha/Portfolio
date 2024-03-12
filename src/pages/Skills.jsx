@@ -1,5 +1,6 @@
 import Aos from 'aos'
 import React, { useEffect } from 'react'
+import "../../src/assets/skills.css"
 
 export default function Skills() {
     useEffect(() => {
@@ -9,152 +10,146 @@ export default function Skills() {
     }, [])
     return (
         <>
-            <div className='bg-[#fffafa]'>
-                <div className='pt-3'>
-                    <h2 className='fs-3 text-center mt- font-semibold text-[#3d4c53] headding-fonts'>&lt; My Competence &gt;</h2>
-                </div>
-                <div className='w-100 mt-2'>
-                    <div className='mx-auto h-[2px] w-[125px] bg-[#3d4c53]'></div>
-                </div>
-                <div className='w-100 flex px-3 gap-3 flex-wrap my-4 justify-center items-center'>
-                    <a href="#html" className='py-2 px-3 text-[#fff] bg-[#3d4c53]' data-aos="zoom-in">HTML</a>
-                    <a href="#css" className='py-2 px-3 text-[#fff] bg-[#3d4c53]' data-aos="zoom-in">CSS</a>
-                    <a href="#css" className='py-2 px-3 text-[#fff] bg-[#3d4c53]' data-aos="zoom-in">Bootstrap</a>
-                    <a href="#css" className='py-2 px-3 text-[#fff] bg-[#3d4c53]' data-aos="zoom-in">Tailwind Css</a>
-                    <a href="#javascript" className='py-2 px-3 text-[#fff] bg-[#3d4c53]' data-aos="zoom-in">JavaScript</a>
-                    <a href="#react" className='py-2 px-3 text-[#fff] bg-[#3d4c53]' data-aos="zoom-in">React js</a>
-                    <a href="#redux" className='py-2 px-3 text-[#fff] bg-[#3d4c53]' data-aos="zoom-in">Redux</a>
-                    <a href="#git&github" className='py-2 px-3 text-[#fff] bg-[#3d4c53]' data-aos="zoom-in">Git</a>
-                    <a href="#git&github" className='py-2 px-3 text-[#fff] bg-[#3d4c53]' data-aos="zoom-in">Github</a>
-                </div>
-                <div className='w-100 px-3'>
-                    <div id='html' data-aos="fade-up">
-                        <h2 className='fs-3 font-semibold text-[#3d4c53] mt-3 text-center'>HTML</h2>
-                        <div className='w-100'>
-                            <div className='mx-auto h-[1px] mt-1 w-[100px] bg-[#3d4c53]'></div>
+            <div className='bg-[#fffafa] h-[93vh]'>
+                <div className='row m-0'>
+                    <div className='col-lg-4 mt-3'  data-aos="zoom-in">
+                        <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#3d4c53] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
+                            <div className='w-100'>
+                                <p className='fs-3 m-0'>HTML</p>
+                                <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
+                                    <div className='bg-[#3d4c53] w-100 h-[100%] flex items-center justify-center'>
+                                        <b className='text-white m-0'>10 OUT OF 10</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className=''>
+                                <i class="fa-brands fa-html5 fs- text-[#3d4c53] display-3 "></i>
+                            </div>
                         </div>
-                        <ul className='mx-3 mt-3'>
-                            <li className='list-disc'>Proficient in writing clean, semantic HTML5 markup.</li>
-                            <hr className='my-1' />
-                            <li className='list-disc'>Experience in creating responsive and mobile-friendly web pages using HTML and CSS.</li>
-                            <hr className='my-1' />
-                            <li className='list-disc'>Deep understanding of HTML document structure and the use of various tags.</li>
-                            <hr className='my-1' />
-                            <li className='list-disc'>Familiarity with HTML forms, input validation, and integration with server-side processing.</li>
-                            <hr className='my-1' />
-                            <li className='list-disc'>Experience with the integration of multimedia elements, such as images, audio, and video, using HTML.</li>
-                            <hr className='my-1' />
-                            <li className='list-disc'>Understanding of HTML5 features, including canvas, local storage, and web sockets.</li>
-                        </ul>
                     </div>
-                    <div className='w-100 flex flex-col items-center justify-center my-2'>
-                        <div className='mx-auto h-[60px] w-[2px] bg-[#3d4c53]'></div>
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </div>
-                    <div id='css' data-aos="fade-down">
-                        <h2 className='fs-3 font-semibold text-[#3d4c53] mt-3 text-center'>CSS, Bootstrap, & TailwindCSS</h2>
-                        <div className='w-100'>
-                            <div className='mx-auto h-[1px] mt-2 w-[150px] bg-[#3d4c53]'></div>
+                    <div className='col-lg-4 mt-3' data-aos="zoom-in">
+                        <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#3d4c53] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
+                            <div className='w-100'>
+                                <p className='fs-3 m-0'>CSS</p>
+                                <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
+                                    <div className='bg-[#3d4c53] text-white w-[98%] h-[100%] flex items-center justify-center'>
+                                        <b className='text- m-0'>9.5 OUT OF 10</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className=''>
+                                <i class="fa-brands fa-css3-alt display-3 text-[#3d4c53]"></i>
+                            </div>
                         </div>
-                        <ul className='mx-3 mt-3'>
-                            <li className='list-disc'><strong>CSS:</strong> Proficient in writing clean, modular CSS code to create visually appealing and user-friendly designs. Strong understanding of CSS3 features, including flexbox and grid, to build responsive layouts.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Bootstrap:</strong> Extensive experience in leveraging Bootstrap to streamline the development process. Skilled in utilizing Bootstrap components and utilities to create consistent and responsive web designs.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Tailwind CSS:</strong> Proficient in using Tailwind CSS for utility-first and highly customizable styling. Experience in building efficient and maintainable stylesheets with Tailwind's utility classes.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Responsive Design:</strong> Skilled in implementing responsive design principles across various screen sizes and devices for a consistent and user-friendly experience.</li>
-                        </ul>
                     </div>
-                    <div className='w-100 flex flex-col items-center justify-center my-2'>
-                        <div className='mx-auto h-[60px] w-[2px] bg-[#3d4c53]'></div>
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </div>
-                    <div id='javascript' data-aos="fade-up">
-                        <h2 className='fs-3 font-semibold text-[#3d4c53] mt-3 text-center'>JavaScript</h2>
-                        <div className='w-100'>
-                            <div className='mx-auto h-[1px] mt-2 w-[100px] bg-[#3d4c53]'></div>
+                    <div className='col-lg-4 mt-3' data-aos="zoom-in">
+                        <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#3d4c53] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
+                            <div className='w-100'>
+                                <p className='fs-3 m-0'>J.S</p>
+                                <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
+                                    <div className='bg-[#3d4c53] text-white w-[95%] h-[100%] flex items-center justify-center'>
+                                        <b className='text- m-0'>8 OUT OF 10</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className=''>
+                                <i class="fa-brands fa-square-js display-3 text-[#3d4c53]"></i>
+                            </div>
                         </div>
-                        <ul className='mx-3 mt-3'>
-                            <li className='list-disc'><strong>Proficient in JavaScript:</strong> Demonstrated expertise in writing clean, efficient, and modular JavaScript code.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Frontend Development:</strong>  experience in frontend development, utilizing JavaScript to create dynamic and interactive user interfaces.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>ES6+ Features:</strong> knowledge and application of modern JavaScript features, including arrow functions, destructuring, and async/await.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>DOM Manipulation:</strong> Expertise in manipulating the Document Object Model (DOM) for dynamic and responsive user interfaces.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Event-Driven Programming:</strong> Skilled in handling user events and creating interactive applications through event-driven programming.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Continuous Learning:</strong> Proactive in staying updated with the latest JavaScript advancements, frameworks, and best practices to enhance frontend development skills.</li>
-                        </ul>
                     </div>
-                    <div className='w-100 flex flex-col items-center justify-center my-2'>
-                        <div className='mx-auto h-[60px] w-[2px] bg-[#3d4c53]'></div>
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </div>
-                    <div id='react' data-aos="fade-down">
-                        <h2 className='fs-3 font-semibold text-[#3d4c53] mt-3 text-center'>React.js</h2>
-                        <div className='w-100'>
-                            <div className='mx-auto h-[1px] mt-2 w-[100px] bg-[#3d4c53]'></div>
+                    <div className='col-lg-4 mt-3' data-aos="zoom-in">
+                        <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#3d4c53] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
+                            <div className='w-100'>
+                                <p className='fs-3 m-0'>REACT.JS</p>
+                                <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
+                                    <div className='bg-[#3d4c53] text-white w-[95%] h-[100%] flex items-center justify-center'>
+                                        <b className='text- m-0'>8 OUT OF 10</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className=''>
+                                <i class="fa-brands fa-react display-3"></i>
+                            </div>
                         </div>
-                        <ul className='mx-3 mt-3'>
-                            <li className='list-disc'><strong>Component-Based Development:</strong> Expertise in building scalable and reusable UI components following React's component-based architecture.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>React Hooks:</strong> In-depth knowledge and practical application of React Hooks for managing state, side effects, and other functionalities in functional components.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>React Router:</strong> Experience in implementing client-side routing using React Router for seamless navigation in single-page applications.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Forms and Controlled Components:</strong> Proficient in creating controlled forms and handling user input through React's controlled components.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>API Integration:</strong> Familiarity with fetching and integrating data from APIs into React applications, utilizing tools like the Fetch API or Axios.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Responsive Design with React:</strong> Ability to create responsive and mobile-friendly designs using React and CSS media queries.</li>
-                        </ul>
                     </div>
-                    <div className='w-100 flex flex-col items-center justify-center my-2'>
-                        <div className='mx-auto h-[60px] w-[2px] bg-[#3d4c53]'></div>
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </div>
-                    <div id='redux' data-aos="fade-up">
-                        <h2 className='fs-3 font-semibold text-[#3d4c53] mt-3 text-center'>Redux</h2>
-                        <div className='w-100'>
-                            <div className='mx-auto h-[1px] mt-2 w-[100px] bg-[#3d4c53]'></div>
+                    <div className='col-lg-4 mt-3' data-aos="zoom-in">
+                        <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#3d4c53] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
+                            <div className='w-100'>
+                                <p className='fs-3 m-0'>REDUX</p>
+                                <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
+                                    <div className='bg-[#3d4c53] text-white w-[80%] h-[100%] flex items-center justify-center'>
+                                        <b className='text- m-0'>6 OUT OF 10</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='SvgContainer'>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="xMidYMid" viewBox="0 0 256 244" id="redux"><path fill="#3d4c53" d="M177.381 169.733c9.447-.978 16.614-9.122 16.288-18.896-.325-9.773-8.47-17.592-18.243-17.592h-.651c-10.1.326-17.918 8.796-17.592 18.895.326 4.887 2.28 9.122 5.212 12.054-11.076 21.828-28.016 37.791-53.426 51.148-17.266 9.122-35.183 12.38-53.1 10.1-14.66-1.955-26.062-8.47-33.23-19.222-10.424-15.963-11.401-33.23-2.605-50.496 6.19-12.38 15.962-21.502 22.152-26.063-1.303-4.235-3.258-11.402-4.235-16.614-47.237 34.207-42.35 80.468-28.016 102.295 10.75 16.29 32.577 26.389 56.684 26.389 6.515 0 13.03-.652 19.546-2.28 41.699-8.145 73.299-32.905 91.216-69.718zm57.336-40.397c-24.759-28.995-61.245-44.958-102.944-44.958h-5.212c-2.932-5.864-9.122-9.774-15.963-9.774h-.652C99.848 74.93 92.03 83.4 92.355 93.5c.326 9.773 8.47 17.592 18.243 17.592h.651c7.167-.326 13.357-4.887 15.963-11.077h5.864c24.759 0 48.214 7.167 69.39 21.176 16.288 10.751 28.016 24.76 34.531 41.7 5.538 13.683 5.212 27.04-.652 38.443-9.121 17.266-24.432 26.714-44.63 26.714-13.031 0-25.41-3.91-31.926-6.842-3.583 3.258-10.099 8.47-14.66 11.729 14.009 6.515 28.343 10.099 42.025 10.099 31.274 0 54.404-17.267 63.2-34.533 9.447-18.896 8.795-51.474-15.637-79.165zM69.225 175.27c.326 9.774 8.47 17.592 18.243 17.592h.652c10.099-.325 17.917-8.796 17.591-18.895-.325-9.774-8.47-17.592-18.243-17.592h-.651c-.652 0-1.63 0-2.28.325-13.357-22.153-18.895-46.26-16.94-72.323 1.302-19.547 7.818-36.488 19.22-50.497 9.447-12.054 27.69-17.918 40.07-18.243 34.531-.652 49.19 42.351 50.168 59.618 4.235.977 11.402 3.258 16.289 4.887C189.434 27.366 156.857 0 125.584 0c-29.32 0-56.359 21.176-67.11 52.451-14.985 41.7-5.212 81.771 13.031 113.372-1.628 2.28-2.606 5.864-2.28 9.448z"></path></svg>
+                            </div>
                         </div>
-                        <ul className='mx-3 mt-3'>
-                            <li className='list-disc'><strong>Understanding of State Management:</strong> Familiarity with the concept of state management in frontend applications and the role Redux plays in maintaining a centralized application state.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Redux Principles:</strong> Basic knowledge of Redux principles, including actions, reducers, and the single immutable state tree.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Action Dispatching:</strong> Ability to dispatch actions to describe state changes in the application and initiate corresponding updates to the Redux store.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Reducer Functions:</strong> Exposure to creating reducer functions to specify how the application's state changes in response to dispatched actions.</li>
-                        </ul>
                     </div>
-                    <div className='w-100 flex flex-col items-center justify-center my-2'>
-                        <div className='mx-auto h-[60px] w-[2px] bg-[#3d4c53]'></div>
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </div>
-                    <div id='git&github'>
-                        <h2 className='fs-3 font-semibold text-[#3d4c53] mt-3 text-center'>Git and Github</h2>
-                        <div className='w-100'>
-                            <div className='mx-auto h-[1px] mt-2 w-[100px] bg-[#3d4c53]'></div>
+                    <div className='col-lg-4 mt-3' data-aos="zoom-in">
+                        <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#3d4c53] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
+                            <div className='w-100'>
+                                <p className='fs-3 m-0'>BOOTSTRAP</p>
+                                <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
+                                    <div className='bg-[#3d4c53] text-white w-[98%] h-[100%] flex items-center justify-center'>
+                                        <b className='text- m-0'>9.5 OUT OF 10</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className=''>
+                                <i class="fa-brands fa-bootstrap display-3 text-[#3d4c53]"></i>
+                            </div>
                         </div>
-                        <ul className='mx-3 mt-3'>
-                            <li className='list-disc'><strong>Version Control:</strong> Proficient in using Git for version control, enabling systematic tracking of changes and collaboration in a team environment.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Repository Management:</strong> Experienced in creating, cloning, and managing Git repositories on local machines and remote servers, particularly on GitHub.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Branching Strategies:</strong> Knowledge of branching strategies such as feature branching and Gitflow for organized and collaborative development workflows.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Merging and Conflict Resolution:</strong> Skillful in merging branches and resolving merge conflicts to maintain a clean and cohesive codebase.</li>
-                            <hr className='my-2' />
-                            <li className='list-disc'><strong>Pull Requests:</strong> Proficient in creating and reviewing pull requests on GitHub, facilitating effective code collaboration and integration.</li>
-                            <hr className='my-2' />
-                        </ul>
+                    </div>
+                    <div className='col-lg-4 mt-3' data-aos="zoom-in">
+                        <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#3d4c53] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
+                            <div className='w-100'>
+                                <p className='fs-3 m-0'>TAILWIND CSS</p>
+                                <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
+                                    <div className='bg-[#3d4c53] text-white w-[98%] h-[100%] flex items-center justify-center'>
+                                        <b className='text- m-0'>9.5 OUT OF 10</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='SvgContainer' >
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="60" height="77"><path d="M18.5 9.51a4.22 4.22 0 0 1-1.91-1.34A5.77 5.77 0 0 0 12 6a4.72 4.72 0 0 0-5 4 3.23 3.23 0 0 1 3.5-1.49 4.32 4.32 0 0 1 1.91 1.35A5.77 5.77 0 0 0 17 12a4.72 4.72 0 0 0 5-4 3.2 3.2 0 0 1-3.5 1.51zm-13 4.98a4.22 4.22 0 0 1 1.91 1.34A5.77 5.77 0 0 0 12 18a4.72 4.72 0 0 0 5-4 3.23 3.23 0 0 1-3.5 1.49 4.32 4.32 0 0 1-1.91-1.35A5.8 5.8 0 0 0 7 12a4.72 4.72 0 0 0-5 4 3.2 3.2 0 0 1 3.5-1.51z" fill="#3d4c53" class="color000 svgShape" /></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-4 mt-3' data-aos="zoom-in">
+                        <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#3d4c53] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
+                            <div className='w-100'>
+                                <p className='fs-3 m-0'>GIT</p>
+                                <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
+                                    <div className='bg-[#3d4c53] text-white w-[96%] h-[100%] flex items-center justify-center'>
+                                        <b className='text- m-0'>9 OUT OF 10</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='z-40'>
+                                <i class="fa-brands fa-git-alt display-3 text-[#3d4c53]"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-4 mt-3 mb-3' data-aos="zoom-in">
+                        <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#000000] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
+                            <div className='w-100'>
+                                <p className='fs-3 m-0'>GITHUB</p>
+                                <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
+                                    <div className='bg-[#3d4c53] text-white w-[96%] h-[100%] flex items-center justify-center'>
+                                        <b className='text- m-0'>9 OUT OF 10</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='z-40'>
+                                <i class="fa-brands fa-github display-3 text-[#3d4c53]"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+           
         </>
     )
 }

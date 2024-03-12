@@ -1,0 +1,11 @@
+.SvgContainer {
+    height: 77px;
+    width: 60px;
+}
+
+@media (max-width:990px) {
+    .SvgContainer{
+        height: 53px;
+        width: 60px;
+    }
+}
