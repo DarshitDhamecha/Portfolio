@@ -60,6 +60,36 @@ export default function Skills() {
                     <div className='col-lg-4 mt-3' data-aos="zoom-in">
                         <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#3d4c53] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
                             <div className='w-100'>
+                                <p className='fs-3 m-0'>Wordpress</p>
+                                <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
+                                    <div className='bg-[#3d4c53] text-white w-[95%] h-[100%] flex items-center justify-center'>
+                                        <b className='text- m-0'>9 OUT OF 10</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className=''>
+                                <i class="fa-brands fa-wordpress display-3 text-[#3d4c53]"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-4 mt-3' data-aos="zoom-in">
+                        <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#3d4c53] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
+                            <div className='w-100'>
+                                <p className='fs-3 m-0'>Shopify</p>
+                                <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
+                                    <div className='bg-[#3d4c53] text-white w-[95%] h-[100%] flex items-center justify-center'>
+                                        <b className='text- m-0'>9 OUT OF 10</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className=''>
+                                <i class="fa-brands fa-shopify display-3 text-[#3d4c53]"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-4 mt-3' data-aos="zoom-in">
+                        <div className=' text-[#3d4c53] border-5 bg-[#3d4c5309]  border-[#3d4c53] border-double flex rounded-2 px-4 py-1 items-center justify-between'>
+                            <div className='w-100'>
                                 <p className='fs-3 m-0'>REACT.JS</p>
                                 <div className='border-[#3d4c53] w-75 h-[20px] border-2'>
                                     <div className='bg-[#3d4c53] text-white w-[95%] h-[100%] flex items-center justify-center'>

@@ -13,6 +13,50 @@ export default function Project() {
     return (
         <>
             <div className='bg-[#fffafa]'>
+            <div className='flex gap-3 px-3 mt-3 my-wraper'>
+                    <div className='project-4  my-flex-gro' data-aos="zoom-in">
+                        <div className='product-2-bg py-3 px-3 text-[#fff]'>
+                            <h2 className='fs-4 mt-2'>Clothing Website</h2>
+                            <p className='mt-3 '>🚀 I recently design an e-commerce clothing website featuring seamless navigation and captivating animations. Leveraging React.JS, HTML, CSS, Bootstrap, and Tailwind CSS, I ensured a responsive, visually appealing experience</p>
+                            <a href="https://e-commerce-clothing-darshit.netlify.app"
+                                target='_blank'
+                                rel="noopener noreferrer"
+                            >
+                                <button className='mt-3 border-white border-1 px-3 py-1 text-lg hover:bg-[#fff] hover:!text-black'>
+                                    View
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div className='project-5 my-flex-gro' data-aos="zoom-in">
+                        <div className='product-2-bg py-3 px-3 text-[#fff]'>
+                            <h2 className='fs-4 mt-2'>Restaurant Website</h2>
+                            <p className='mt-3'>🍽️ I recently design an Restaurant Website featuring seamless navigation and captivating animations. Leveraging React.JS, HTML, CSS, Bootstrap, and Tailwind CSS, I ensured a responsive, visually appealing experience</p>
+                            <a href="https://restaurantwebsite-darshit.netlify.app"
+                                target='_blank'
+                                rel="noopener noreferrer"
+                            >
+                                <button className='mt-3 border-white border-1 px-3 py-1 text-lg hover:bg-[#fff] hover:!text-black'>
+                                    View
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div className='project-7  my-flex-gro' data-aos="zoom-in">
+                        <div className='product-2-bg py-3 px-3 text-[#fff]'>
+                            <h2 className='fs-4 mt-2'>Beauty Product Website</h2>
+                            <p className='mt-3'>🌦️☀️ I recently design an Beauty Product Website featuring seamless navigation and captivating animations. Leveraging React.JS, HTML, CSS, Bootstrap, and Tailwind CSS, I ensured a responsive, visually appealing experience</p>
+                            <a href="https://beautyproducts-darshit.netlify.app"
+                                target='_blank'
+                                rel="noopener noreferrer"
+                            >
+                                <button className='mt-3 border-white border-1 px-3 py-1 text-lg hover:bg-[#fff] hover:!text-black'>
+                                    View
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div className='flex gap-3 px-3 pt-3 my-wraper'>
                     <div className='project-1  my-flex-gro' data-aos="zoom-in">
                         <div className='product-bg py-3 px-3 text-[#fff]'>
@@ -57,51 +101,8 @@ export default function Project() {
                         </div>
                     </div>
                 </div>
-                <div className='flex gap-3 px-3 mt-3 my-wraper'>
-                    <div className='project-4  my-flex-gro' data-aos="zoom-in">
-                        <div className='product-2-bg py-3 px-3 text-[#fff]'>
-                            <h2 className='fs-4 mt-2'>Clothing Website</h2>
-                            <p className='mt-3 '>🚀 I recently design an e-commerce clothing website featuring seamless navigation and captivating animations. Leveraging React.JS, HTML, CSS, Bootstrap, and Tailwind CSS, I ensured a responsive, visually appealing experience</p>
-                            <a href="https://e-commerce-clothing-darshit.netlify.app"
-                                target='_blank'
-                                rel="noopener noreferrer"
-                            >
-                                <button className='mt-3 border-white border-1 px-3 py-1 text-lg hover:bg-[#fff] hover:!text-black'>
-                                    View
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='project-5 my-flex-gro' data-aos="zoom-in">
-                        <div className='product-2-bg py-3 px-3 text-[#fff]'>
-                            <h2 className='fs-4 mt-2'>Restaurant Website</h2>
-                            <p className='mt-3'>🍽️ I recently design an Restaurant Website featuring seamless navigation and captivating animations. Leveraging React.JS, HTML, CSS, Bootstrap, and Tailwind CSS, I ensured a responsive, visually appealing experience</p>
-                            <a href="https://restaurantwebsite-darshit.netlify.app"
-                                target='_blank'
-                                rel="noopener noreferrer"
-                            >
-                                <button className='mt-3 border-white border-1 px-3 py-1 text-lg hover:bg-[#fff] hover:!text-black'>
-                                    View
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='project-7  my-flex-gro' data-aos="zoom-in">
-                        <div className='product-2-bg py-3 px-3 text-[#fff]'>
-                            <h2 className='fs-4 mt-2'>Beauty Product Website</h2>
-                            <p className='mt-3 '>🌦️☀️ I recently design an Beauty Product Website featuring seamless navigation and captivating animations. Leveraging React.JS, HTML, CSS, Bootstrap, and Tailwind CSS, I ensured a responsive, visually appealing experience</p>
-                            <a href="https://beautyproducts-darshit.netlify.app"
-                                target='_blank'
-                                rel="noopener noreferrer"
-                            >
-                                <button className='mt-3 border-white border-1 px-3 py-1 text-lg hover:bg-[#fff] hover:!text-black'>
-                                    View
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className='flex gap-3 px-3 mt-3 my-wraper'>
+                
+                <div className='flex gap-3 px-3 my-3 my-wraper'>
                     <div className='project-6 my-flex-gro' data-aos="zoom-in">
                         <div className='product-bg py-3 px-3 text-[#fff]'>
                             <h2 className='fs-4 mt-2'>Weather-App</h2>

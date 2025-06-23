@@ -17,7 +17,7 @@ export default function Header() {
         <NavLink to='/' className='header-eff' >HOME</NavLink>
         <NavLink to='/resume' className='header-eff' >RESUME</NavLink>
         <NavLink to='/project' className='header-eff' >PROJECTS</NavLink>
-        <NavLink to='/about' className='header-eff' >ABOUT</NavLink>
+        {/* <NavLink to='/about' className='header-eff' >ABOUT</NavLink> */}
         <NavLink to='/skills' className='header-eff' >SKILLS</NavLink>
       </div>
     </>
