@@ -21,12 +21,13 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className='secZoom text-[#3d4c53] w-100 justify-center mt-3 text-center w-100 px-2'>
-                    <p className='font-semibold text-lg'>Hi, I'm Darshit Dhamecha</p>
+                    <p className='font-semibold fs-4'>Hi, I'm Darshit Dhamecha</p>
                     <div className="w-100">
                         <div className='h-[2px] w-[150px] bg-[#3d4c53] mx-auto my-2' ></div>
                     </div>
                     <p className='display-3 font-bold'>Web Developer</p>
-                    <p className='text mt-3' >Seeking a role as a front-end developer so I can use my thorough knowledge of programming frameworks and development software.</p>
+                    {/* <p className='text mt-3' >Seeking a role as a front-end developer so I can use my thorough knowledge of programming frameworks and development software.</p> */}
+                    <p className='text mt-3' >From concept to code — I craft bold, modern websites that connect.</p>
                     <div className='flex gap-3 mt-4 icons-align justify-center w-100'>
                         <a href='https://github.com/DarshitDhamecha'
                             target="_blank"
